@@ -53,7 +53,7 @@ NSString * const demo14Description = @"xib的cell高度自适应";
     [super viewDidLoad];
     
     self.view.backgroundColor = [UIColor whiteColor];
-    
+    self.title = @"Demo";
     
     [self.navigationController pushViewController:[NSClassFromString(@"DemoVC13") new] animated:YES];
     
